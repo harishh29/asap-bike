@@ -472,6 +472,110 @@ footer .install img{
 
 }
 
+
+
+#prod-head{
+
+    background-image: url("img/hero2.jpg");
+    background-size: cover;
+    height:55vh;
+    width: 100%;
+    padding:0px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 14px;
+}
+
+#prod-head h2{
+    color: red;
+    
+}
+
+#prod-head p{
+    color: red;
+    font-weight: 700;
+}
+
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: 700;
+}
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*-- item detail */
+#itemdetail{
+    display: flex;
+    margin-top: 20px;
+}
+#itemdetail .single-prod-detail{
+    width: 50%;
+    padding-top: 30px;
+}
+
+#itemdetail .single-prod-img{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-grp{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.small-img-col{
+    flex-basis: 25%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#itemdetail .single-prod-detail h4{
+    padding:  40px 0 20px 0;
+}
+
+#itemdetail .single-prod-detail h2{
+    font-size: 26px;
+}
+
+#itemdetail .single-prod-detail select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+#itemdetail .single-prod-detail input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#itemdetail .single-prod-detail button{
+    background-color: red;
+    color: white;
+
+}
+
+#itemdetail .single-prod-detail input:focus{
+    outline: none;
+}
+
+
 /* Start Media Query */
 
 @media (max-width:800px){
@@ -602,64 +706,19 @@ footer .install img{
     #newsletter .form {  
         width: 100%;
     }
-}
 
-#prod-head{
+    /*Item Detail*/
+    #itemdetail {
+        display: flex;
+        flex-direction: column;
+    }
+    #itemdetail .single-prod-img{
+        width: 100%;
+        margin-right: 50px;
+    }
 
-    background-image: url("img/hero2.jpg");
-    background-size: cover;
-    height:55vh;
-    width: 100%;
-    padding:0px 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 14px;
-}
-
-#prod-head h2{
-    color: red;
-    
-}
-
-#prod-head p{
-    color: red;
-    font-weight: 700;
-}
-
-
-#pagination{
-    text-align: center;
-}
-
-#pagination a{
-    color: white;
-    background-color: red;
-    border-radius: 5px;
-    padding: 15px 20px;
-    text-decoration: none;
-    margin: 5px;
-    font-weight: 700;
-}
-#pagination a i{
-    font-size: 16px;
-    font-weight: 600;
-}
-
-/*-- item detail */
-
-#itemdetail .single-prod-img{
-    width: 40%;
-    margin-right: 50px;
-}
-
-.small-img-grp{
-    display: flex;
-    justify-content: space-between;
-}
-
-.small-img-col{
-    flex-basis: 24%;
-    cursor: pointer;
+    #itemdetail .single-prod-detail{
+        width: 100%;
+        
+    }
 }
