@@ -166,14 +166,21 @@ button.black{
     color: yellow;
 }
 
-#hero button{
+#hero .button{
     background-color: red;
     border: 5px solid red;
     border-radius: 30px;
     font-size: 20px;
     color: white;
     padding: 15px 20px;
+    text-decoration: none;
 }
+
+#hero .button:hover{
+    background-color: #ff4d4d;
+    border: 5px solid #ff4d4d;
+}
+
 
 #feature{
     display: flex;
@@ -206,6 +213,7 @@ button.black{
 #product1{
     text-align: center;
 }
+
 #product1 .prod-container{
     display: flex;
     justify-content: space-between ;
