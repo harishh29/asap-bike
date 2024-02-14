@@ -480,7 +480,7 @@ footer .install img{
 
 }
 
-
+/* product page*/
 
 #prod-head{
 
@@ -583,6 +583,122 @@ footer .install img{
     outline: none;
 }
 
+/* about Page */
+
+#prod-head.about-header{
+    background-image: url("img/garage.jpg");
+}
+#about-head{
+    display: flex;
+    align-items: center;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+
+#about-head div{
+    padding-left: 40px;
+}
+/* contact Page */
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details .details{
+    width: 40%;
+}
+
+#contact-details .details span{
+    font-size: 12px;
+}
+
+#contact-details .details h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+#contact-details .details h3{
+    font-size: 16px;
+    
+    padding-bottom: 20px 0;
+}
+#contact-details .details li{
+    list-style-type: none;
+    display: flex;
+    padding:10px 0;
+}
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid black;
+}
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+#form-details form button{
+    background-color: red;
+    color: white;
+}
+#form-details .staff div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+#form-details .staff div img{
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+#form-details .staff div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+#form-details .staff div p span{
+    display: block;
+    font-size: 16px;
+    font-weight: black;
+}
 
 /* Start Media Query */
 
