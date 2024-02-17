@@ -658,20 +658,28 @@ footer .install img{
 #about-head{
     display: flex;
     align-items: center;
-  
+    flex-direction: column; 
 }
-
-
-
 
 #about-head img{
     width: 40%;
     height: auto;
 }
 
-#about-head div h2, 
-#about-head div p{
-    padding-left: 40px;
+#about-head .about1 div{
+    padding: 0 350px 0 80px;
+    
+}
+
+#about-head .about2 div{
+    padding: 0 80px 0 350px;
+    
+}
+
+#about-head .about-box{
+    display: flex;
+    align-items: center;
+    margin: 20px;
 }
 /* contact Page */
 
