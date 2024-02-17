@@ -658,22 +658,19 @@ footer .install img{
 #about-head{
     display: flex;
     align-items: center;
-    flex-direction: column;
+  
 }
 
 
-#about-head about-head{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
+
 
 #about-head img{
     width: 40%;
     height: auto;
 }
 
-#about-head div{
+#about-head div h2, 
+#about-head div p{
     padding-left: 40px;
 }
 /* contact Page */
